@@ -1,0 +1,64 @@
+{
+  "transactions": [
+    {
+      "hash": "0x38c525b4be48e9127e7db6fb499e86c1e7bd013f8e014bd340693d9deeb4434c",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xEB1ACB53736Afa0684b76711880590B42ae1F194",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://rpc.testnet.fantom.network",
+      "transaction": {
+        "type": "0x00",
+        "from": "0xded212b8bab662b98f49e757cbb409bb7808dc10",
+        "to": "0xeb1acb53736afa0684b76711880590b42ae1f194",
+        "gas": "0x1492b",
+        "value": "0x0",
+        "data": "0xf1ead1260000000000000000000000000a3137fea1cd910242a2ebf2a0290d988ada2137000000000000000000000000cad3477b8d2569c849298e82d10046ed422ac258",
+        "nonce": "0x2e9"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x38c525b4be48e9127e7db6fb499e86c1e7bd013f8e014bd340693d9deeb4434c",
+      "transactionIndex": "0x0",
+      "blockHash": "0x0000485b0000133d14e7a227c10dd480bff744e42111c833e6db14f23ec9898a",
+      "blockNumber": "0xdff92c",
+      "from": "0xdeD212B8BAb662B98f49e757CbB409BB7808dc10",
+      "to": "0xEB1ACB53736Afa0684b76711880590B42ae1F194",
+      "cumulativeGasUsed": "0xf765",
+      "gasUsed": "0xf765",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0x0a3137fea1Cd910242A2ebF2A0290D988aDa2137",
+          "topics": [
+            "0x99d737e0adf2c449d71890b86772885ec7959b152ddb265f76325b6e68e105d3"
+          ],
+          "data": "0x000000000000000000000000cad3477b8d2569c849298e82d10046ed422ac258",
+          "blockHash": "0x0000485b0000133d14e7a227c10dd480bff744e42111c833e6db14f23ec9898a",
+          "blockNumber": "0xdff92c",
+          "transactionHash": "0x38c525b4be48e9127e7db6fb499e86c1e7bd013f8e014bd340693d9deeb4434c",
+          "transactionIndex": "0x0",
+          "logIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004080000000000000000000000000010000000000000000000000000000000001000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x0",
+      "effectiveGasPrice": "0x3d186568"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "C:/Users/Michael/Documents/ppWorkspace/metropolis/lb-vaults/broadcast\\set-operator.s.sol\\4002\\run-latest.json",
+  "returns": {},
+  "timestamp": 1680002340,
+  "chain": 4002,
+  "multi": false,
+  "commit": "b68d26c"
+}

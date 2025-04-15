@@ -1,0 +1,229 @@
+[
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "bp",
+          "type": "uint256"
+        }
+      ],
+      "name": "BinHelper__BinStepOverflows",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "BinHelper__IdOverflows",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "LiquidityAmounts__LengthMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        },
+        {
+          "internalType": "int256",
+          "name": "y",
+          "type": "int256"
+        }
+      ],
+      "name": "Math128x128__PowerUnderflow",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "prod1",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "denominator",
+          "type": "uint256"
+        }
+      ],
+      "name": "Math512Bits__MulDivOverflow",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "prod1",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "offset",
+          "type": "uint256"
+        }
+      ],
+      "name": "Math512Bits__MulShiftOverflow",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "offset",
+          "type": "uint256"
+        }
+      ],
+      "name": "Math512Bits__OffsetOverflows",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "SafeCast__Exceeds24Bits",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "liquidities",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "totalSupplies",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint112[]",
+          "name": "binReservesX",
+          "type": "uint112[]"
+        },
+        {
+          "internalType": "uint112[]",
+          "name": "binReservesY",
+          "type": "uint112[]"
+        }
+      ],
+      "name": "getAmountsForLiquidities",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "amountX",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amountY",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "ids",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "address",
+          "name": "LBPair",
+          "type": "address"
+        }
+      ],
+      "name": "getAmountsOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "amountX",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amountY",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "ids",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint16",
+          "name": "binStep",
+          "type": "uint16"
+        },
+        {
+          "internalType": "uint112",
+          "name": "amountX",
+          "type": "uint112"
+        },
+        {
+          "internalType": "uint112",
+          "name": "amountY",
+          "type": "uint112"
+        }
+      ],
+      "name": "getLiquiditiesForAmounts",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "liquidities",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "ids",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "address",
+          "name": "LBPair",
+          "type": "address"
+        }
+      ],
+      "name": "getLiquiditiesOf",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "liquidities",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
